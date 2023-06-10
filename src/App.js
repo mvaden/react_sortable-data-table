@@ -1,5 +1,5 @@
 import Table from './components/Table/Table';
-import './App.css';
+import './App.scss';
 
 const App = () => {
   return (
