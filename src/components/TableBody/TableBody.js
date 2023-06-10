@@ -4,7 +4,6 @@ const TableBody = ({ tableData, columns }) => {
          <tbody>
             {
                tableData.map((data) => {
-                  console.log("data: ", data.email)
                   return (
                      <>
                         <tr key={data.id} className="table-row">
