@@ -4,7 +4,7 @@ const TableHead = ({ columns }) => {
          <tr>
             {
                columns.map(({ label, accessor}) => {
-                  return <th ley={accessor}>{label}</th>
+                  return <th key={accessor} className="table-head">{label}</th>
                })
             }
          </tr>

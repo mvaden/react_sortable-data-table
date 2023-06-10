@@ -1,9 +1,9 @@
 import { useState } from "react";
-import TableBody from "./TableBody";
-import TableHead from "./TableHead";
+import TableBody from "../TableBody/TableBody";
+import TableHead from "../TableHead/TableHead";
 
 const Table = () => {
-   const importedData = require("../data/data.json");
+   const importedData = require("../../data/data.json");
    const [tableData, setTableData] = useState(importedData);
 
    const columns = [
