@@ -10,8 +10,7 @@ const TableBody = ({ tableData, columns }) => {
                            {
                               columns.map(({ accessor }) => {
                                  const tData = data[accessor] ? data[accessor] : "-";
-                                 console.log("accessor: ", data[accessor])
-                                 return <td key={accessor}>{tData}</td>;
+                                 return <td key={accessor} className="table-data">{tData}</td>;
                               })
                            }
                         </tr>
