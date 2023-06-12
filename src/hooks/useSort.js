@@ -22,6 +22,7 @@ function getDefaultSorting(defaultTableData, columns) {
 
       return sortbyOrder === "asc" ? ascending : -ascending;
    });
+   
    return sorted;
 }
 
